@@ -1,9 +1,6 @@
+
 # ATAuthSDKLib
 
-[![CI Status](https://img.shields.io/travis/weihang/ATAuthSDKLib.svg?style=flat)](https://travis-ci.org/weihang/ATAuthSDKLib)
-[![Version](https://img.shields.io/cocoapods/v/ATAuthSDKLib.svg?style=flat)](https://cocoapods.org/pods/ATAuthSDKLib)
-[![License](https://img.shields.io/cocoapods/l/ATAuthSDKLib.svg?style=flat)](https://cocoapods.org/pods/ATAuthSDKLib)
-[![Platform](https://img.shields.io/cocoapods/p/ATAuthSDKLib.svg?style=flat)](https://cocoapods.org/pods/ATAuthSDKLib)
 
 ## Example
 
@@ -22,7 +19,7 @@ pod 'ATAuthSDKLib'
 
 ## Author
 
-weihang, ios_weihang@163.com
+DCEdit, 
 
 ## License
 
