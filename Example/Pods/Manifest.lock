@@ -1,0 +1,16 @@
+PODS:
+  - ATAuthSDKMD (0.1.0)
+
+DEPENDENCIES:
+  - ATAuthSDKMD (from `../`)
+
+EXTERNAL SOURCES:
+  ATAuthSDKMD:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATAuthSDKMD: f794b5bd9dbf2e9f3b03977ed0abfcc5e880d4e1
+
+PODFILE CHECKSUM: 017c3dbf9eeb2574abaf8da6f399c62f661f4bbc
+
+COCOAPODS: 1.11.3

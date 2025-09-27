@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7BAE0CDE13F76AC0154C9BCC19799367 /* ATAuthSDKMD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 61B3BFF36C14D99CFF2310F46284311B /* Build configuration list for PBXAggregateTarget "ATAuthSDKMD" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = ATAuthSDKMD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3394F83E7DB81DBEFACD9F0AF8E999E7 /* Pods-ATAuthSDKMD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 596CB23144D9738BA2F8C92505976DA0 /* Pods-ATAuthSDKMD_Example-dummy.m */; };
+		65DE1596D60ED307B193B27A2B38F372 /* Pods-ATAuthSDKMD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69B3977084D88056628D1B01BB335310 /* Pods-ATAuthSDKMD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		973E4B2FCC1710E90C94748F9B91A45A /* Pods-ATAuthSDKMD_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9259746210ECF3234FA07EEE1071371E /* Pods-ATAuthSDKMD_Tests-dummy.m */; };
+		982B60E3C758BC70D182AA7E7C8FCB2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AA2414C43E9215BC968B04732170E968 /* Pods-ATAuthSDKMD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A327EABC51332B4CE72448350E4B37FB /* Pods-ATAuthSDKMD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC5827E39FD4BC153F0FAB71BD37E861 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5E73F519B62946B7CCD811C45FB7356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BAE0CDE13F76AC0154C9BCC19799367;
+			remoteInfo = ATAuthSDKMD;
+		};
+		F205494063F995EC03AC0A225186F8E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44993541796C7A45A69C80FCCD9621F4;
+			remoteInfo = "Pods-ATAuthSDKMD_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04707865E4C8BE1C5557E9E16DACB58B /* Pods-ATAuthSDKMD_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ATAuthSDKMD_Tests"; path = Pods_ATAuthSDKMD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		179EF9CFA97F86DF12CD0F02FEBDA570 /* YTXOperators.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTXOperators.framework; path = ATAuthSDKMD/ATAuthSDKMD/YTXOperators.framework; sourceTree = "<group>"; };
+		263A863A27FF62EA6D1DB0A81C861802 /* Pods-ATAuthSDKMD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAuthSDKMD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B24D8A2B9478DE92499E3D2CDFB8356 /* Pods-ATAuthSDKMD_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATAuthSDKMD_Example-Info.plist"; sourceTree = "<group>"; };
+		30F63D2F79411E835D24031466D16D2A /* ATAuthSDKMD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATAuthSDKMD.debug.xcconfig; sourceTree = "<group>"; };
+		3DD2CED5EA1CFB2632C21B644E177024 /* Pods-ATAuthSDKMD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATAuthSDKMD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E9337E6F287FBF0AEE792D3DEF1AE55 /* ATAuthSDKMD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ATAuthSDKMD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4CAEB212A969CA2E2F4125E514150595 /* Pods-ATAuthSDKMD_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATAuthSDKMD_Tests-Info.plist"; sourceTree = "<group>"; };
+		596CB23144D9738BA2F8C92505976DA0 /* Pods-ATAuthSDKMD_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATAuthSDKMD_Example-dummy.m"; sourceTree = "<group>"; };
+		5DBB2F6D8479583D8F5E01491AF65FA1 /* Pods-ATAuthSDKMD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATAuthSDKMD_Tests.modulemap"; sourceTree = "<group>"; };
+		5F454EDE50603B28DC87714570B75DCF /* Pods-ATAuthSDKMD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAuthSDKMD_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5F62C4775AD91BD4278536E0AD233F07 /* YTXMonitor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTXMonitor.framework; path = ATAuthSDKMD/ATAuthSDKMD/YTXMonitor.framework; sourceTree = "<group>"; };
+		64C866B0DB0952C37BBAECA4AFCE6592 /* ATAuthSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ATAuthSDK.framework; path = ATAuthSDKMD/ATAuthSDKMD/ATAuthSDK.framework; sourceTree = "<group>"; };
+		69B3977084D88056628D1B01BB335310 /* Pods-ATAuthSDKMD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATAuthSDKMD_Example-umbrella.h"; sourceTree = "<group>"; };
+		6E7A9F2CCFA97C42849DA79620C16BDB /* Pods-ATAuthSDKMD_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ATAuthSDKMD_Example"; path = Pods_ATAuthSDKMD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B92D3717A79074643034954DAE6BE5 /* Pods-ATAuthSDKMD_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATAuthSDKMD_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E7EC3A6988661CC0493716233B39E07 /* Pods-ATAuthSDKMD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAuthSDKMD_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8D332DB3D35645CA9435F904943C33F3 /* ATAuthSDKMD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATAuthSDKMD.release.xcconfig; sourceTree = "<group>"; };
+		9259746210ECF3234FA07EEE1071371E /* Pods-ATAuthSDKMD_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATAuthSDKMD_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A327EABC51332B4CE72448350E4B37FB /* Pods-ATAuthSDKMD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATAuthSDKMD_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ADFCC95DE7AAD85BF625C72A161AC29F /* Pods-ATAuthSDKMD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATAuthSDKMD_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B5E0F1148484D5D77AC95E05EB4D6A22 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C1F71DC2AA5618B370E8F78859422B71 /* Pods-ATAuthSDKMD_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATAuthSDKMD_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D143B2423F9A638DA3ECE55C5DEB9632 /* Pods-ATAuthSDKMD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATAuthSDKMD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E56C524CAE83CC740C807B2FB5F13856 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F079DFFEC1082FFF5EE5FEC798C41334 /* Pods-ATAuthSDKMD_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATAuthSDKMD_Example.modulemap"; sourceTree = "<group>"; };
+		F29A78AA6410DF999EDF57A167A8066A /* PNSNetDetect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PNSNetDetect.framework; path = ATAuthSDKMD/ATAuthSDKMD/PNSNetDetect.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DA25BAE600681BE8F9BC0038F6256DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5827E39FD4BC153F0FAB71BD37E861 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AD8BB6332F98567A3211A57EA67C393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982B60E3C758BC70D182AA7E7C8FCB2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05F1414DF1E4BC6A979DC9148B43FC2F /* Pods-ATAuthSDKMD_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F079DFFEC1082FFF5EE5FEC798C41334 /* Pods-ATAuthSDKMD_Example.modulemap */,
+				C1F71DC2AA5618B370E8F78859422B71 /* Pods-ATAuthSDKMD_Example-acknowledgements.markdown */,
+				D143B2423F9A638DA3ECE55C5DEB9632 /* Pods-ATAuthSDKMD_Example-acknowledgements.plist */,
+				596CB23144D9738BA2F8C92505976DA0 /* Pods-ATAuthSDKMD_Example-dummy.m */,
+				2B24D8A2B9478DE92499E3D2CDFB8356 /* Pods-ATAuthSDKMD_Example-Info.plist */,
+				69B3977084D88056628D1B01BB335310 /* Pods-ATAuthSDKMD_Example-umbrella.h */,
+				7E7EC3A6988661CC0493716233B39E07 /* Pods-ATAuthSDKMD_Example.debug.xcconfig */,
+				5F454EDE50603B28DC87714570B75DCF /* Pods-ATAuthSDKMD_Example.release.xcconfig */,
+			);
+			name = "Pods-ATAuthSDKMD_Example";
+			path = "Target Support Files/Pods-ATAuthSDKMD_Example";
+			sourceTree = "<group>";
+		};
+		0E9F126CE1C7941736541D564963000C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E7A9F2CCFA97C42849DA79620C16BDB /* Pods-ATAuthSDKMD_Example */,
+				04707865E4C8BE1C5557E9E16DACB58B /* Pods-ATAuthSDKMD_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23A2805AC8513BE83635267E7DA73D4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64C866B0DB0952C37BBAECA4AFCE6592 /* ATAuthSDK.framework */,
+				F29A78AA6410DF999EDF57A167A8066A /* PNSNetDetect.framework */,
+				5F62C4775AD91BD4278536E0AD233F07 /* YTXMonitor.framework */,
+				179EF9CFA97F86DF12CD0F02FEBDA570 /* YTXOperators.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D3F90011FF2FC0E98F6F193736C93E5 /* Pods-ATAuthSDKMD_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5DBB2F6D8479583D8F5E01491AF65FA1 /* Pods-ATAuthSDKMD_Tests.modulemap */,
+				3DD2CED5EA1CFB2632C21B644E177024 /* Pods-ATAuthSDKMD_Tests-acknowledgements.markdown */,
+				71B92D3717A79074643034954DAE6BE5 /* Pods-ATAuthSDKMD_Tests-acknowledgements.plist */,
+				9259746210ECF3234FA07EEE1071371E /* Pods-ATAuthSDKMD_Tests-dummy.m */,
+				4CAEB212A969CA2E2F4125E514150595 /* Pods-ATAuthSDKMD_Tests-Info.plist */,
+				A327EABC51332B4CE72448350E4B37FB /* Pods-ATAuthSDKMD_Tests-umbrella.h */,
+				263A863A27FF62EA6D1DB0A81C861802 /* Pods-ATAuthSDKMD_Tests.debug.xcconfig */,
+				ADFCC95DE7AAD85BF625C72A161AC29F /* Pods-ATAuthSDKMD_Tests.release.xcconfig */,
+			);
+			name = "Pods-ATAuthSDKMD_Tests";
+			path = "Target Support Files/Pods-ATAuthSDKMD_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		738BE43AA2049BA1241436621DF38797 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30F63D2F79411E835D24031466D16D2A /* ATAuthSDKMD.debug.xcconfig */,
+				8D332DB3D35645CA9435F904943C33F3 /* ATAuthSDKMD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ATAuthSDKMD";
+			sourceTree = "<group>";
+		};
+		7E93BAEC28C00CCBA327FCCB098AA0A8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBAE1F30EC548CAF65BF57CE43417918 /* ATAuthSDKMD */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C33891E75630FE631AE95287198A3F5E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3E9337E6F287FBF0AEE792D3DEF1AE55 /* ATAuthSDKMD.podspec */,
+				E56C524CAE83CC740C807B2FB5F13856 /* LICENSE */,
+				B5E0F1148484D5D77AC95E05EB4D6A22 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CBAE1F30EC548CAF65BF57CE43417918 /* ATAuthSDKMD */ = {
+			isa = PBXGroup;
+			children = (
+				23A2805AC8513BE83635267E7DA73D4A /* Frameworks */,
+				C33891E75630FE631AE95287198A3F5E /* Pod */,
+				738BE43AA2049BA1241436621DF38797 /* Support Files */,
+			);
+			name = ATAuthSDKMD;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CCF603C961337981109FA4A29AD7F596 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F1414DF1E4BC6A979DC9148B43FC2F /* Pods-ATAuthSDKMD_Example */,
+				3D3F90011FF2FC0E98F6F193736C93E5 /* Pods-ATAuthSDKMD_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7E93BAEC28C00CCBA327FCCB098AA0A8 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0E9F126CE1C7941736541D564963000C /* Products */,
+				CCF603C961337981109FA4A29AD7F596 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17714C26EF8838EB919581286D09E733 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65DE1596D60ED307B193B27A2B38F372 /* Pods-ATAuthSDKMD_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AF52A12D981DCE1ADB5B96A69AC4517 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2414C43E9215BC968B04732170E968 /* Pods-ATAuthSDKMD_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		44993541796C7A45A69C80FCCD9621F4 /* Pods-ATAuthSDKMD_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C82E1B3A4C737D774D934FBC5DA5B96 /* Build configuration list for PBXNativeTarget "Pods-ATAuthSDKMD_Example" */;
+			buildPhases = (
+				17714C26EF8838EB919581286D09E733 /* Headers */,
+				5FD99AB30ED7F39ECDC0A63DD2C319C8 /* Sources */,
+				5DA25BAE600681BE8F9BC0038F6256DC /* Frameworks */,
+				8B605BC0BD8AEFA3EC42BC69F56EA286 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF8EC833E246EAEEB38355A1F06B711B /* PBXTargetDependency */,
+			);
+			name = "Pods-ATAuthSDKMD_Example";
+			productName = Pods_ATAuthSDKMD_Example;
+			productReference = 6E7A9F2CCFA97C42849DA79620C16BDB /* Pods-ATAuthSDKMD_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		C539C0BE3E2B2D4C67E108886A9CA902 /* Pods-ATAuthSDKMD_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D592A887624C772FBEBC9AF2037F7188 /* Build configuration list for PBXNativeTarget "Pods-ATAuthSDKMD_Tests" */;
+			buildPhases = (
+				8AF52A12D981DCE1ADB5B96A69AC4517 /* Headers */,
+				D2F35FCD10F0AEBDA063B2A166E7D5B2 /* Sources */,
+				9AD8BB6332F98567A3211A57EA67C393 /* Frameworks */,
+				F18850CA4D030F66A0C0593969BAAD82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CB9B1650299E8D86AA2AF2DCA386BE1 /* PBXTargetDependency */,
+			);
+			name = "Pods-ATAuthSDKMD_Tests";
+			productName = Pods_ATAuthSDKMD_Tests;
+			productReference = 04707865E4C8BE1C5557E9E16DACB58B /* Pods-ATAuthSDKMD_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0E9F126CE1C7941736541D564963000C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BAE0CDE13F76AC0154C9BCC19799367 /* ATAuthSDKMD */,
+				44993541796C7A45A69C80FCCD9621F4 /* Pods-ATAuthSDKMD_Example */,
+				C539C0BE3E2B2D4C67E108886A9CA902 /* Pods-ATAuthSDKMD_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B605BC0BD8AEFA3EC42BC69F56EA286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F18850CA4D030F66A0C0593969BAAD82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FD99AB30ED7F39ECDC0A63DD2C319C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3394F83E7DB81DBEFACD9F0AF8E999E7 /* Pods-ATAuthSDKMD_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F35FCD10F0AEBDA063B2A166E7D5B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973E4B2FCC1710E90C94748F9B91A45A /* Pods-ATAuthSDKMD_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CB9B1650299E8D86AA2AF2DCA386BE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ATAuthSDKMD_Example";
+			target = 44993541796C7A45A69C80FCCD9621F4 /* Pods-ATAuthSDKMD_Example */;
+			targetProxy = F205494063F995EC03AC0A225186F8E5 /* PBXContainerItemProxy */;
+		};
+		AF8EC833E246EAEEB38355A1F06B711B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ATAuthSDKMD;
+			target = 7BAE0CDE13F76AC0154C9BCC19799367 /* ATAuthSDKMD */;
+			targetProxy = E5E73F519B62946B7CCD811C45FB7356 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18524CFB4C271F263EDFBF775BC98D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F454EDE50603B28DC87714570B75DCF /* Pods-ATAuthSDKMD_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ATAuthSDKMD_Example/Pods-ATAuthSDKMD_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATAuthSDKMD_Example/Pods-ATAuthSDKMD_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		22AAB7F4F4BC2426485E9A179693359C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7EC3A6988661CC0493716233B39E07 /* Pods-ATAuthSDKMD_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ATAuthSDKMD_Example/Pods-ATAuthSDKMD_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATAuthSDKMD_Example/Pods-ATAuthSDKMD_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		488AAD95C2F146A2EBCDB305B0BC2E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADFCC95DE7AAD85BF625C72A161AC29F /* Pods-ATAuthSDKMD_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ATAuthSDKMD_Tests/Pods-ATAuthSDKMD_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATAuthSDKMD_Tests/Pods-ATAuthSDKMD_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8056D70E73AF6B674E68959685BE7F64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D332DB3D35645CA9435F904943C33F3 /* ATAuthSDKMD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7A696EC30962584D14C3BCE6E732A41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 263A863A27FF62EA6D1DB0A81C861802 /* Pods-ATAuthSDKMD_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ATAuthSDKMD_Tests/Pods-ATAuthSDKMD_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ATAuthSDKMD_Tests/Pods-ATAuthSDKMD_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D4B9D683CC56AB44DB6170D8147B10AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F63D2F79411E835D24031466D16D2A /* ATAuthSDKMD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C82E1B3A4C737D774D934FBC5DA5B96 /* Build configuration list for PBXNativeTarget "Pods-ATAuthSDKMD_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22AAB7F4F4BC2426485E9A179693359C /* Debug */,
+				18524CFB4C271F263EDFBF775BC98D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61B3BFF36C14D99CFF2310F46284311B /* Build configuration list for PBXAggregateTarget "ATAuthSDKMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4B9D683CC56AB44DB6170D8147B10AF /* Debug */,
+				8056D70E73AF6B674E68959685BE7F64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D592A887624C772FBEBC9AF2037F7188 /* Build configuration list for PBXNativeTarget "Pods-ATAuthSDKMD_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A696EC30962584D14C3BCE6E732A41 /* Debug */,
+				488AAD95C2F146A2EBCDB305B0BC2E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_ATAuthSDKMD_Example {
+  umbrella header "Pods-ATAuthSDKMD_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
