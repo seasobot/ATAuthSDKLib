@@ -1,9 +1,9 @@
 //
-//  ATAuthSDKMDTests.m
-//  ATAuthSDKMDTests
+//  ATAuthSDKLibTests.m
+//  ATAuthSDKLibTests
 //
-//  Created by DCEdit on 06/01/2022.
-//  Copyright (c) 2022 DCEdit. All rights reserved.
+//  Created by weihang on 09/27/2025.
+//  Copyright (c) 2025 weihang. All rights reserved.
 //
 
 @import XCTest;
